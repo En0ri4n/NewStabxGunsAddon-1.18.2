@@ -25,5 +25,4 @@ public class StabxModernGuns {
     private void clientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(ClientHandler::registerModelOverrides);
     }
-
 }
