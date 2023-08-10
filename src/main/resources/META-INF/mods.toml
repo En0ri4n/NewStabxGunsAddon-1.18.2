@@ -4,11 +4,10 @@ license="GNU General Public License v3.0"
 
 [[mods]]
     modId="stabxmodernguns"
-    version="4.1"
+    version="4.1-modified"
     displayName="Stabx Modern Guns"
-    authors="Stabilizer King Dynasty"
-    credits="Stabilizer Gaming Studio"
-    description="Addon for MrcrayFish Gun mod That Adds  High Quality Guns with good sounds."
+    authors="Stabilizer King Dynasty (modified by En0ri4n)"
+    description="Addon for MrcrayFish Gun mod That Adds High Quality Guns with good sounds."
 
 [[dependencies.stabxmodernguns]]
     modId="forge"

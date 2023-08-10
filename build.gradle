@@ -44,7 +44,7 @@ minecraft {
             property 'mixin.env.disableRefMap', 'true'
 
             mods {
-                stabcmodernguns {
+                stabxmodernguns {
                     source sourceSets.main
                 }
             }
@@ -55,7 +55,7 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'mixin.env.disableRefMap', 'true'
-            args '--mod', 'staxmodernguns', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'stabxmodernguns', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 stabxmodernguns {
@@ -77,7 +77,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.1.84'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.2.0'
 
     implementation fg.deobf('curse.maven:framework-549225:4287475')
     //implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4344223')
@@ -90,11 +90,11 @@ jar {
     manifest {
         attributes([
             "Specification-Title": "Stabx Modern Guns ",
-            "Specification-Vendor": "Stabilizer King",
+            "Specification-Vendor": "Stabilizer King (modified by En0ri4n)",
             "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": project.jar.archiveVersion,
-            "Implementation-Vendor" :"Stabilizer King",
+            "Implementation-Vendor" :"Stabilizer King (modified by En0ri4n)",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
