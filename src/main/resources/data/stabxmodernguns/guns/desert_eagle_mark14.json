@@ -1,0 +1,40 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 8,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 7,
+    "reloadAmount": 3,
+    "recoilAngle": 12,
+    "recoilKick": 3,
+    "recoilAdsReduction": 0.2,
+    "alwaysSpread": true,
+    "spread": 0.90
+  },
+  "projectile": {
+    "item": "stabxmodernguns:50ae",
+    "visible": false,
+    "damage": 16,
+    "size": 0.1,
+    "speed": 20.0,
+    "life": 25
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.desert_eagle_mark14.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.pistol.cock"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 6.2,
+      "zOffset": -4.0
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 9,
+      "zOffset": -6
+    }
+  }
+}

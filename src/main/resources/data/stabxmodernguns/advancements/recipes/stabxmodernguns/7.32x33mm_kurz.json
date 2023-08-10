@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "stabxmodernguns:7.32x33mm_kurz"
+    ]
+  },
+  "criteria": {
+    "has_iron_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:nuggets/iron"
+          }
+        ]
+      }
+    },
+    "has_copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gunpowder"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "stabxmodernguns:7.32x33mm_kurz"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_nugget",
+      "has_copper_ingot",
+      "has_gunpowder",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 2,
+      "tag": "forge:gunpowder"
+    },
+    {
+      "count": 4,
+      "tag": "forge:nuggets/iron"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "count": 48,
+    "item": "stabxmodernguns:7.7x58mm"
+  }
+}
