@@ -38,10 +38,11 @@ minecraft {
         }
 
         server {
-            workingDirectory project.file('run')
+            workingDirectory project.file('run/SERVER')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'mixin.env.disableRefMap', 'true'
+            arg '-nogui'
 
             mods {
                 stabxmodernguns {
