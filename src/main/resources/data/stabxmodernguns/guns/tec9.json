@@ -4,7 +4,7 @@
     "rate": 1,
     "gripType": "cgm:one_handed",
     "maxAmmo": 32,
-    "reloadAmount":10,
+    "reloadAmount": 10,
     "recoilAngle": 1,
     "recoilKick": 0.5,
     "recoilAdsReduction": 0.9,
@@ -12,7 +12,7 @@
     "spread": 2.0
   },
   "projectile": {
-    "item": "stabxmodernguns:9x19mm_parabellum",
+    "item": "stabxmodernguns:9x19mm_parabellum_magazine",
     "visible": false,
     "damage": 5.5,
     "size": 0.1,

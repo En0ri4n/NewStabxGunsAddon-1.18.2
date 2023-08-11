@@ -12,7 +12,7 @@
     "spread": 2.0
   },
   "projectile": {
-    "item": "stabxmodernguns:5.56x45_nato",
+    "item": "stabxmodernguns:5.56x45_nato_magazine",
     "visible": false,
     "gravity": true,
     "damage": 8.5,

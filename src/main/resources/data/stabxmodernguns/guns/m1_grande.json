@@ -12,7 +12,7 @@
     "spread": 1
   },
   "projectile": {
-    "item": "stabxmodernguns:30_60_springfield_cartridge",
+    "item": "stabxmodernguns:30_60_springfield_cartridge_magazine",
     "visible": false,
     "damage": 15,
     "size": 0.2,

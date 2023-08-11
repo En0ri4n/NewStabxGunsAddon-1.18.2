@@ -1,41 +1,41 @@
 {
-	"general": {
-		"auto": true,
-		"rate": 2,
-		"gripType": "cgm:two_handed",
-		"maxAmmo": 40,
-		"reloadAmount": 3,
-		"recoilAngle": 2.0,
-		"recoilKick": 1.1,
-		"recoilAdsReduction": 0.7,
-		"alwaysSpread": true,
-		"spread": 2.0
-	},
-	"projectile": {
-		"item": "stabxmodernguns:5.56x45_nato",
-		"visible": false,
-		"gravity": true,
-		"damage": 12.5,
-		"size": 0.2,
-		"speed": 20.0,
-		"life": 50
-	},
-	"sounds": {
-		"fire": "stabxmodernguns:item.hk416.fire",
-		"reload": "cgm:item.pistol.reload",
-		"cock": "cgm:item.assault_rifle.cock"
-	},
-	"display": {
-		"flash": {
-			"yOffset": 2.4,
-			"zOffset": 26
-		}
-	},
-	"modules": {
-		"zoom": {
-			"fovModifier": 0.8,
-			"yOffset": 5,
-			"zOffset": 2.5
-	   }
-       }
+  "general": {
+    "auto": true,
+    "rate": 2,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 40,
+    "reloadAmount": 3,
+    "recoilAngle": 2.0,
+    "recoilKick": 1.1,
+    "recoilAdsReduction": 0.7,
+    "alwaysSpread": true,
+    "spread": 2.0
+  },
+  "projectile": {
+    "item": "stabxmodernguns:5.56x45_nato_magazine",
+    "visible": false,
+    "gravity": true,
+    "damage": 12.5,
+    "size": 0.2,
+    "speed": 20.0,
+    "life": 50
+  },
+  "sounds": {
+    "fire": "stabxmodernguns:item.hk416.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.4,
+      "zOffset": 26
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 5,
+      "zOffset": 2.5
+    }
+  }
 }
