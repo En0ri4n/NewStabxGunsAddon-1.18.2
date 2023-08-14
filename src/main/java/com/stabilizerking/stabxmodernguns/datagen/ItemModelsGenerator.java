@@ -19,10 +19,11 @@ public class ItemModelsGenerator extends ItemModelProvider
     @Override
     protected void registerModels()
     {
-        ForgeRegistries.ITEMS.getValues().stream()
-                .map(ForgeRegistryEntry::getRegistryName)
-                .filter(Objects::nonNull)
-                .filter(registryName -> StabxModernGuns.MOD_ID.equals(registryName.getNamespace()))
-                .forEach(this::basicItem);
+        if(false) // Set to true to generate models for all items (or specific items below)
+            ForgeRegistries.ITEMS.getValues().stream()
+                    .map(ForgeRegistryEntry::getRegistryName)
+                    .filter(Objects::nonNull)
+                    .filter(registryName -> StabxModernGuns.MOD_ID.equals(registryName.getNamespace()))
+                    .forEach(this::basicItem);
     }
 }

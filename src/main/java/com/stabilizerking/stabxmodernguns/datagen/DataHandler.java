@@ -11,5 +11,6 @@ public class DataHandler
     public static void onData(GatherDataEvent event)
     {
         event.getGenerator().addProvider(new ItemModelsGenerator(event.getGenerator(), event.getExistingFileHelper()));
+        event.getGenerator().addProvider(new StabXMagazineGen(event.getGenerator()));
     }
 }
