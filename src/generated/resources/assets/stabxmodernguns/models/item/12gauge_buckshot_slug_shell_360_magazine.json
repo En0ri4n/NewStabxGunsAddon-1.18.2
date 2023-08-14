@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "stabxmodernguns:item/magazines/12gauge_buckshot_slug_shell_360_magazine"
+    "layer0": "stabxmodernguns:item/12gauge_buckshot_slug_shell_360_magazine"
   }
 }

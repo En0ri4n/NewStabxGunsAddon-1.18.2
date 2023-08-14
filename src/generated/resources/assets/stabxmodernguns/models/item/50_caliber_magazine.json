@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "stabxmodernguns:item/magazines/50_caliber_magazine"
+    "layer0": "stabxmodernguns:item/50_caliber_magazine"
   }
 }

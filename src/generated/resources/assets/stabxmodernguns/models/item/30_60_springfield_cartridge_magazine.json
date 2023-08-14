@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "stabxmodernguns:item/magazines/30_60_springfield_cartridge_magazine"
+    "layer0": "stabxmodernguns:item/30_60_springfield_cartridge_magazine"
   }
 }
