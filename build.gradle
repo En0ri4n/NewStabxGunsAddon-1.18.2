@@ -20,6 +20,8 @@ archivesBaseName = "Stabx_Modern_Guns"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
 minecraft {
     mappings channel: "${mappings_channel}", version: "${parchment_version}"
 
@@ -53,8 +55,6 @@ minecraft {
     }
 }
 
-sourceSets.main.resources { srcDir 'src/generated/resources' }
-
 repositories {
     maven {
         url = "https://www.cursemaven.com"
@@ -87,17 +87,28 @@ jar {
     }
 }
 
-jar.finalizedBy('reobfJar') 
+tasks.register('sourceJar', Jar) {
+    dependsOn tasks.classes
+    from sourceSets.main.allSource
+    classifier 'sources'
+    extension 'jar'
+    group 'build'
+}
+
+jar.finalizedBy('reobfJar')
 
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            artifact jar
+            artifacts {
+                artifact jar
+                artifact tasks.sourceJar
+            }
         }
     }
     repositories {
         maven {
-            url "file:///${project.projectDir}/mcmodsrepo"
+            url "file:///X:/localmaven/mcmods"
         }
     }
 }
