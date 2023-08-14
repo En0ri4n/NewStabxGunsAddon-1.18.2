@@ -24,6 +24,7 @@ public class ItemModelsGenerator extends ItemModelProvider
                     .map(ForgeRegistryEntry::getRegistryName)
                     .filter(Objects::nonNull)
                     .filter(registryName -> StabxModernGuns.MOD_ID.equals(registryName.getNamespace()))
+                    // .filter(registryName -> registryName.getPath().contains("magazine")) // Register magazine models
                     .forEach(this::basicItem);
     }
 }

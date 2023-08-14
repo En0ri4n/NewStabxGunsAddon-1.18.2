@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "stabxmodernguns:item/9x19mm_parabellum_magazine"
+  }
+}
