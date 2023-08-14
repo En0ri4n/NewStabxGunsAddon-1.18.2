@@ -1,0 +1,12 @@
+{
+  "general": {
+    "maxAmmo": 10,
+    "reloadAmount": 10
+  },
+  "storedAmmo": {
+    "item": "stabxmodernguns:30_60_springfield_cartridge"
+  },
+  "sounds": {
+    "reload": "cgm:item.pistol.reload"
+  }
+}

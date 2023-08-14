@@ -1,0 +1,12 @@
+{
+  "general": {
+    "maxAmmo": 15,
+    "reloadAmount": 15
+  },
+  "storedAmmo": {
+    "item": "stabxmodernguns:9mm"
+  },
+  "sounds": {
+    "reload": "cgm:item.pistol.reload"
+  }
+}

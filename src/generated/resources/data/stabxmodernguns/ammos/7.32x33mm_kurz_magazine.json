@@ -1,0 +1,12 @@
+{
+  "general": {
+    "maxAmmo": 30,
+    "reloadAmount": 30
+  },
+  "storedAmmo": {
+    "item": "stabxmodernguns:7.32x33mm_kurz"
+  },
+  "sounds": {
+    "reload": "cgm:item.pistol.reload"
+  }
+}

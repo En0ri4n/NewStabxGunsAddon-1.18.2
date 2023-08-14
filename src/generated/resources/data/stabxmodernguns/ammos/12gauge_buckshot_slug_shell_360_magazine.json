@@ -1,0 +1,12 @@
+{
+  "general": {
+    "maxAmmo": 8,
+    "reloadAmount": 8
+  },
+  "storedAmmo": {
+    "item": "stabxmodernguns:12gauge_buckshot_slug_shell_360"
+  },
+  "sounds": {
+    "reload": "cgm:item.pistol.reload"
+  }
+}
