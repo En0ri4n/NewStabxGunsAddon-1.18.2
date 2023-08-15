@@ -116,6 +116,27 @@ public class StabXMagazineGen extends MagazineProvider
                 .setStoredAmmo(ModItemRegisteration.THRITY_SIXTY_AMMO.get())
                 .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
                 .build());
+
+        addMagazine(getId(ModItemRegisteration.THREE_HUNDREED_BLACKOUT_MAGAZINE), Magazine.Builder.create()
+                .setMaxAmmo(10)
+                .setReloadAmount(10)
+                .setStoredAmmo(ModItemRegisteration.THRITY_SIXTY_AMMO.get())
+                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
+                .build());
+
+        addMagazine(getId(ModItemRegisteration.SEVEN_92x57MM_MAGAZINE), Magazine.Builder.create()
+                .setMaxAmmo(10)
+                .setReloadAmount(10)
+                .setStoredAmmo(ModItemRegisteration.THRITY_SIXTY_AMMO.get())
+                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
+                .build());
+
+        addMagazine(getId(ModItemRegisteration.FOUR_6x30MM_MAGAZINE), Magazine.Builder.create()
+                .setMaxAmmo(10)
+                .setReloadAmount(10)
+                .setStoredAmmo(ModItemRegisteration.THRITY_SIXTY_AMMO.get())
+                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
+                .build());
     }
 
     private ResourceLocation getId(RegistryObject<Item> item)
