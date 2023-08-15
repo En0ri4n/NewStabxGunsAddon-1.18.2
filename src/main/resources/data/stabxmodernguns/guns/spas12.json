@@ -1,42 +1,42 @@
 {
-  "general": {
-    "auto": false,
-    "rate": 6,
-    "gripType": "cgm:two_handed",
-    "maxAmmo": 9,
-    "reloadAmount": 1,
-    "recoilAngle": 5.0,
-    "recoilKick": 1.5,
-    "recoilAdsReduction": 0.5,
-    "projectileAmount": 14,
-    "alwaysSpread": true,
-    "spread": 20.0
-  },
-  "projectile": {
-    "item": "stabxmodernguns:12gauge_buckshot_slug_shell_360_magazine",
-    "visible": false,
-    "gravity": true,
-    "damage": 32.5,
-    "size": 0.2,
-    "speed": 15.0,
-    "life": 20
-  },
-  "sounds": {
-    "fire": "stabxmodernguns:item.spas12.fire",
-    "reload": "stabxmodernguns:item.spas12.reload",
-    "cock": "stabxmodernguns:item.spas12.cock"
-  },
-  "display": {
-    "flash": {
-      "yOffset": 2.5,
-      "zOffset": -20
-    }
-  },
-  "modules": {
-    "zoom": {
-      "fovModifier": 0.8,
-      "yOffset": 4,
-      "zOffset": 2.5
-    }
-  }
+	"general": {
+		"auto": false,
+		"rate": 6,
+		"gripType": "cgm:two_handed",
+		"maxAmmo": 9,
+		"reloadAmount": 1,
+		"recoilAngle": 5.0,
+		"recoilKick": 1.5,
+		"recoilAdsReduction": 0.5,
+		"projectileAmount": 14,
+		"alwaysSpread": true,
+		"spread": 20.0
+	},
+	"projectile": {
+		"item": "stabxmodernguns:12gauge_buckshot_slug_shell_360",
+		"visible": false,
+		"gravity": true,
+		"damage": 32.5,
+		"size": 0.2,
+		"speed": 15.0,
+		"life": 20
+	},
+	"sounds": {
+		"fire": "stabxmodernguns:item.spas12.fire",
+		"reload": "stabxmodernguns:item.spas12.reload",
+		"cock": "stabxmodernguns:item.spas12.cock"
+	},
+	"display": {
+		"flash": {
+			"yOffset": 2.5,
+			"zOffset": -20
+		}
+	},
+	"modules": {
+		"zoom": {
+			"fovModifier": 0.8,
+			"yOffset": 4,
+			"zOffset": 2.5
+		}
+	}
 }

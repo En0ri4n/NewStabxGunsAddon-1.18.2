@@ -11,7 +11,7 @@
     "spread": 2.0
   },
   "projectile": {
-    "item": "stabxmodernguns:50_caliber_magazine",
+    "item": "stabxmodernguns:50_caliber",
     "visible": false,
     "gravity": true,
     "damage": 16.0,
@@ -37,11 +37,11 @@
       "yOffset": 6.45,
       "zOffset": -3.5
     },
-    "attachments": {
-      "barrel": {
-        "yOffset": 5.5,
-        "zOffset": -5,
-        "scale": 0.50
+      "attachments": {
+        "barrel": {
+          "yOffset": 5.5,
+          "zOffset": -5,
+          "scale": 0.50
       }
     }
   }

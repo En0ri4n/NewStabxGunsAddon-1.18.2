@@ -17,11 +17,11 @@ public class StabxModernGuns
     public StabxModernGuns()
     {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        bus.register(this);
 
         ModItemRegisteration.ITEMS.register(bus);
         ModSoundRegisteration.SOUNDS.register(bus);
 
+        bus.register(this);
         bus.addListener(this::clientSetup);
     }
 

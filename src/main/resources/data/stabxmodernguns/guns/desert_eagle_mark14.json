@@ -12,7 +12,7 @@
     "spread": 0.90
   },
   "projectile": {
-    "item": "stabxmodernguns:50ae_magazine",
+    "item": "stabxmodernguns:50ae",
     "visible": false,
     "damage": 16,
     "size": 0.1,

@@ -9,6 +9,7 @@ import com.mrcrayfish.guns.item.attachment.impl.Stock;
 import com.mrcrayfish.guns.item.attachment.impl.UnderBarrel;
 import com.stabilizerking.stabxmodernguns.StabxModernGuns;
 import com.stabilizerking.stabxmodernguns.item.M1GrandeGunItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,76 +25,97 @@ public class ModItemRegisteration
     // In here Each Gun is Divided into Different Categories So We can easily Understand from Which Category the Gun belongs :).
 
     //-------------------------------------------------Pistols ---------------------------------------------------------------//
-    public static final RegistryObject<GunItem> FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON = ITEMS.register("500magnum_smith_and_wesson", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_MODERN_GUNS_GROUP)));
+    public static final RegistryObject<GunItem> FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON = registerGun("500magnum_smith_and_wesson", StabxCreativeModeTab.STABX_MODERN_GUNS_GROUP);
 
 
-    public static final RegistryObject<GunItem> GLOCK_19_C = ITEMS.register("glock19c", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_MODERN_GUNS_GROUP)));
+    public static final RegistryObject<GunItem> GLOCK_19_C = registerGun("glock19c", StabxCreativeModeTab.STABX_MODERN_GUNS_GROUP);
 
-    public static final RegistryObject<GunItem> DESERT_EAGLE_MARK_14 = ITEMS.register("desert_eagle_mark14", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_MODERN_GUNS_GROUP)));
+    public static final RegistryObject<GunItem> DESERT_EAGLE_MARK_14 = registerGun("desert_eagle_mark14", StabxCreativeModeTab.STABX_MODERN_GUNS_GROUP);
 
     //-------------------------------------------------Sub Machine Guns ----------------------------------------------//
 
-    public static final RegistryObject<GunItem> MP5_CLASSIC = ITEMS.register("mp5_classic", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_SMGs)));
+    public static final RegistryObject<GunItem> COLT_M1911A1 = registerGun("colt_m1911a1", StabxCreativeModeTab.STABX_MODERN_GUNS_GROUP);
 
-    public static final RegistryObject<GunItem> STRIKER45 = ITEMS.register("striker45", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_SMGs)));
+    public static final RegistryObject<GunItem> MP5_CLASSIC = registerGun("mp5_classic", StabxCreativeModeTab.STABX_SMGs);
 
-    public static final RegistryObject<GunItem> MP40 = ITEMS.register("mp40", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_SMGs)));
+    public static final RegistryObject<GunItem> STRIKER45 = registerGun("striker45", StabxCreativeModeTab.STABX_SMGs);
 
-    public static final RegistryObject<GunItem> TEC9 = ITEMS.register("tec9", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_SMGs)));
+    public static final RegistryObject<GunItem> MP40 = registerGun("mp40", StabxCreativeModeTab.STABX_SMGs);
 
+    public static final RegistryObject<GunItem> TEC9 = registerGun("tec9", StabxCreativeModeTab.STABX_SMGs);
+
+    public static final RegistryObject<GunItem> ZRX_MP7 = registerGun("zxr_mp7", StabxCreativeModeTab.STABX_SMGs);
+    
     //-------------------------------------------------Assault Rifles ---------------------------------------------------------------//
 
-    public static final RegistryObject<GunItem> M4 = ITEMS.register("m4", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> M4 = registerGun("m4", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> HK416 = ITEMS.register("hk416", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> HK416 = registerGun("hk416", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> MK_MOD11 = ITEMS.register("mkmod11", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> MK_MOD11 = registerGun("mkmod11", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> SCAR_17 = ITEMS.register("scar17", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> SCAR_17 = registerGun("scar17", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> AK_47 = ITEMS.register("ak47", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> AK_47 = registerGun("ak47", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> AKM_762 = ITEMS.register("akm_762", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> AKM_762 = registerGun("akm_762", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> AKS_74_UX = ITEMS.register("aks74ux", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> AKS_74_UX = registerGun("aks74ux", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> STG44 = ITEMS.register("stg44", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> STG44 = registerGun("stg44", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> M16 = ITEMS.register("m16", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> M16 = registerGun("m16", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> M4A1 = ITEMS.register("m4a1", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> M4A1 = registerGun("m4a1", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> G36C_HD = ITEMS.register("g36chd", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> G36C_HD = registerGun("g36chd", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-    public static final RegistryObject<GunItem> ACR_BUSHMASTER = ITEMS.register("acr_360_bushmaster", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_ASSAULT_RIFLES)));
+    public static final RegistryObject<GunItem> ACR_BUSHMASTER = registerGun("acr_360_bushmaster", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
 
-
+    public static final RegistryObject<GunItem> MCX_MOHEYBADGER = registerGun("mcx_citrus_honeybadger", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
+    
+    public static final RegistryObject<GunItem> SCAR_17HD = registerGun("scar17hd", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
+    
+    public static final RegistryObject<GunItem> AUG556 = registerGun("aug556", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
+    
+    public static final RegistryObject<GunItem> FAMAS_G7 = registerGun("famas_g7", StabxCreativeModeTab.STABX_ASSAULT_RIFLES);
+    
     //-----------------------------------------------------ShotGuns ---------------------------------------------------------------//
 
 
-    public static final RegistryObject<GunItem> AA_12 = ITEMS.register("aa12", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_SHOTGUNS)));
+    public static final RegistryObject<GunItem> AA_12 = registerGun("aa12ux", StabxCreativeModeTab.STABX_SHOTGUNS);
 
-    public static final RegistryObject<GunItem> SPAS_12 = ITEMS.register("spas12", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_SHOTGUNS)));
+    public static final RegistryObject<GunItem> SPAS_12 = registerGun("spas12", StabxCreativeModeTab.STABX_SHOTGUNS);
 
     //------------------------------------------------------Rifles---------------------------------------------------------------//
 
-    public static final RegistryObject<GunItem> ARISAKA_TYPE_99 = ITEMS.register("arisaka_type99", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_RIFlES)));
-
+    public static final RegistryObject<GunItem> ARISAKA_TYPE_99 = registerGun("arisaka_type99", StabxCreativeModeTab.STABX_RIFlES);
+    
+    public static final RegistryObject<GunItem> KAR98K = registerGun("kar98k", StabxCreativeModeTab.STABX_RIFlES);
+    
     public static final RegistryObject<M1GrandeGunItem> M1_GRANDE = ITEMS.register("m1_grande", () -> new M1GrandeGunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_RIFlES)));
+    
+    //----------------------------------------------------DMR Rifles---------------------------------------------------------------//
+
+    public static final RegistryObject<GunItem> M14 = registerGun("m14", StabxCreativeModeTab.STABX_DMR_RIFlES);
+    
+    public static final RegistryObject<GunItem> SKS = registerGun("sks", StabxCreativeModeTab.STABX_DMR_RIFlES);
 
     //----------------------------------------------------Sniper Rifles---------------------------------------------------------------//
 
-    public static final RegistryObject<GunItem> ARTIC_WARFARE_MAGNUM = ITEMS.register("artic_warfare_magnum", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_SNIPER_RIFlES)));
+    public static final RegistryObject<GunItem> ARTIC_WARFARE_MAGNUM = registerGun("artic_warfare_magnum", StabxCreativeModeTab.STABX_SNIPER_RIFlES);
 
-    public static final RegistryObject<GunItem> BARRETT_M82 = ITEMS.register("barrett_m82_sniper", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_SNIPER_RIFlES)));
+    public static final RegistryObject<GunItem> BARRETT_M82 = registerGun("barrett_m82_sniper", StabxCreativeModeTab.STABX_SNIPER_RIFlES);
 
+    public static final RegistryObject<GunItem> SPR_3608 = registerGun("spr3608", StabxCreativeModeTab.STABX_SNIPER_RIFlES);
+    
     //--------------------------------------------------Light Machine Guns ---------------------------------------------------------------//
 
-    public static final RegistryObject<GunItem> M60 = ITEMS.register("m60", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_LMGs)));
+    public static final RegistryObject<GunItem> M60 = registerGun("m60", StabxCreativeModeTab.STABX_LMGs);
 
     //----------------------------------------------------Miscellaneous---------------------------------------------------------------//
 
-    public static final RegistryObject<GunItem> MK_170_CROSSBOW = ITEMS.register("mk_170_crossbow", () -> new GunItem(new Item.Properties().stacksTo(1).tab(StabxCreativeModeTab.STABX_MICS)));
+    public static final RegistryObject<GunItem> MK_170_CROSSBOW = registerGun("mk_170_crossbow", StabxCreativeModeTab.STABX_MICS);
 
     //---------------------------------------Guns Attachments / Sight Scope Attachments ---------------------------------------------------------------//
 
@@ -155,6 +177,12 @@ public class ModItemRegisteration
     public static final RegistryObject<Item> THRITY_SIXTY_AMMO = registerAmmo("30_60_springfield_cartridge");
 
     public static final RegistryObject<Item> MK_CROSSBOW_ARROW = registerAmmo("mk_crossbow_arrow");
+    
+    public static final RegistryObject<Item> FOUR_6x30MM = registerAmmo("4.6x30mm");
+    
+    public static final RegistryObject<Item> SEVEN_92x57MM = registerAmmo("7.92x57mm");
+    
+    public static final RegistryObject<Item> THREE_HUNDREED_BLACKOUT = registerAmmo("300_blackout");
 
     //--------------------------------------------------- Weapons Magazines ------------------------------------------------------------------//
     public static final RegistryObject<Item> NINE_MM_MAGAZINE = registerMagazine("9mm_magazine");
@@ -185,6 +213,16 @@ public class ModItemRegisteration
 
     public static final RegistryObject<Item> THRITY_SIXTY_MAGAZINE = registerMagazine("30_60_springfield_cartridge_magazine");
 
+    public static final RegistryObject<Item> FOUR_6x30MM_MAGAZINE = registerAmmo("4.6x30mm_magazine");
+
+    public static final RegistryObject<Item> SEVEN_92x57MM_MAGAZINE = registerAmmo("7.92x57mm_magazine");
+
+    public static final RegistryObject<Item> THREE_HUNDREED_BLACKOUT_MAGAZINE = registerAmmo("300_blackout_magazine");
+    
+    private static RegistryObject<GunItem> registerGun(String name, CreativeModeTab tab)
+    {
+        return ITEMS.register(name, () -> new GunItem(new Item.Properties().stacksTo(1).tab(tab)));
+    }
 
     private static RegistryObject<Item> registerAmmo(String name)
     {

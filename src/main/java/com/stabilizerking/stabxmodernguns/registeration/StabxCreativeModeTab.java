@@ -1,13 +1,13 @@
 package com.stabilizerking.stabxmodernguns.registeration;
 
 
-import com.mrcrayfish.guns.item.GunItem;
+import com.mrcrayfish.guns.util.GunHelper;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
-
-
-public class StabxCreativeModeTab {
+@SuppressWarnings("ALL")
+public class StabxCreativeModeTab
+{
 
     // In this Class We will Use this To Register The Multiple Creative Tabs just6 like Items and Sounds So we can have
     // lots of  creative tabs for each category just to fix lag. when opening a creative menu.
@@ -19,9 +19,7 @@ public class StabxCreativeModeTab {
         @Override
         public ItemStack makeIcon()
         {
-            ItemStack stack = new ItemStack(ModItemRegisteration.FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON.get());
-            stack.getOrCreateTag().putInt("AmmoCount", ((GunItem) ModItemRegisteration.FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON.get()).getGun().getGeneral().getMaxAmmo());
-            return stack;
+            return GunHelper.setWeaponFull(ModItemRegisteration.FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON.get().getDefaultInstance());
         }
     };
 
@@ -31,9 +29,7 @@ public class StabxCreativeModeTab {
         @Override
         public ItemStack makeIcon()
         {
-            ItemStack stack = new ItemStack(ModItemRegisteration. MP5_CLASSIC.get());
-            stack.getOrCreateTag().putInt("AmmoCount",((GunItem) ModItemRegisteration. MP5_CLASSIC.get()).getGun().getGeneral().getMaxAmmo());
-            return stack;
+            return GunHelper.setWeaponFull(ModItemRegisteration.MP5_CLASSIC.get().getDefaultInstance());
         }
     };
 
@@ -44,9 +40,7 @@ public class StabxCreativeModeTab {
         @Override
         public ItemStack makeIcon()
         {
-            ItemStack stack = new ItemStack(ModItemRegisteration.M4.get());
-            stack.getOrCreateTag().putInt("AmmoCount",((GunItem) ModItemRegisteration.M4.get()).getGun().getGeneral().getMaxAmmo());
-            return stack;
+            return GunHelper.setWeaponFull(ModItemRegisteration.M4.get().getDefaultInstance());
         }
     };
 
@@ -57,9 +51,7 @@ public class StabxCreativeModeTab {
         @Override
         public ItemStack makeIcon()
         {
-            ItemStack stack = new ItemStack(ModItemRegisteration.AA_12.get());
-            stack.getOrCreateTag().putInt("AmmoCount",((GunItem) ModItemRegisteration.AA_12.get()).getGun().getGeneral().getMaxAmmo());
-            return stack;
+            return GunHelper.setWeaponFull(ModItemRegisteration.AA_12.get().getDefaultInstance());
         }
     };
     //---------------------------------------------Creatve Tab for Rifles ---------------------------------------------------------------//
@@ -69,9 +61,16 @@ public class StabxCreativeModeTab {
         @Override
         public ItemStack makeIcon()
         {
-            ItemStack stack = new ItemStack(ModItemRegisteration.ARISAKA_TYPE_99.get());
-            stack.getOrCreateTag().putInt("AmmoCount",((GunItem) ModItemRegisteration.ARISAKA_TYPE_99.get()).getGun().getGeneral().getMaxAmmo());
-            return stack;
+            return GunHelper.setWeaponFull(ModItemRegisteration.ARISAKA_TYPE_99.get().getDefaultInstance());
+        }
+    };
+
+    public static final CreativeModeTab STABX_DMR_RIFlES = new CreativeModeTab("stabx_dmrs")
+    {
+
+        public ItemStack makeIcon()
+        {
+            return GunHelper.setWeaponFull(ModItemRegisteration.M14.get().getDefaultInstance());
         }
     };
 
@@ -82,9 +81,7 @@ public class StabxCreativeModeTab {
         @Override
         public ItemStack makeIcon()
         {
-            ItemStack stack = new ItemStack(ModItemRegisteration.ARTIC_WARFARE_MAGNUM.get());
-            stack.getOrCreateTag().putInt("AmmoCount",((GunItem) ModItemRegisteration.ARTIC_WARFARE_MAGNUM.get()).getGun().getGeneral().getMaxAmmo());
-            return stack;
+            return GunHelper.setWeaponFull(ModItemRegisteration.ARTIC_WARFARE_MAGNUM.get().getDefaultInstance());
         }
     };
 
@@ -96,9 +93,7 @@ public class StabxCreativeModeTab {
         @Override
         public ItemStack makeIcon()
         {
-            ItemStack stack = new ItemStack(ModItemRegisteration.M60.get());
-            stack.getOrCreateTag().putInt("AmmoCount",((GunItem) ModItemRegisteration.M60.get()).getGun().getGeneral().getMaxAmmo());
-            return stack;
+            return GunHelper.setWeaponFull(ModItemRegisteration.M60.get().getDefaultInstance());
         }
     };
 
@@ -109,9 +104,7 @@ public class StabxCreativeModeTab {
         @Override
         public ItemStack makeIcon()
         {
-            ItemStack stack = new ItemStack(ModItemRegisteration.MK_170_CROSSBOW.get());
-            stack.getOrCreateTag().putInt("AmmoCount",((GunItem) ModItemRegisteration.MK_170_CROSSBOW.get()).getGun().getGeneral().getMaxAmmo());
-            return stack;
+            return GunHelper.setWeaponFull(ModItemRegisteration.MK_170_CROSSBOW.get().getDefaultInstance());
         }
     };
 
@@ -120,8 +113,9 @@ public class StabxCreativeModeTab {
     public static final CreativeModeTab STABX_AMMUNATION = new CreativeModeTab("stabx_ammunation")
     {
         @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(ModItemRegisteration.NINE_MM.get());
+        public ItemStack makeIcon()
+        {
+            return GunHelper.setWeaponFull(ModItemRegisteration.NINE_MM.get().getDefaultInstance());
         }
     };
 }
