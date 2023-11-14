@@ -1,7 +1,7 @@
 {
   "general": {
     "auto": true,
-    "rate": 1,
+    "rate": 2,
     "gripType": "cgm:one_handed",
     "maxAmmo": 32,
     "reloadAmount":10,
@@ -12,7 +12,7 @@
     "spread": 2.0
   },
   "projectile": {
-    "item": "stabxmodernguns:9x19mm_parabellum",
+    "item": "stabxmodernguns:9mm",
     "visible": false,
     "damage": 5.5,
     "size": 0.1,
@@ -22,8 +22,8 @@
   "sounds": {
     "fire": "stabxmodernguns:item.tec9.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "cgm:item.pistol.cock",
-    "silencedFire": "stabxmodernguns:item.glock19c.suppressed"
+    "cock": "stabxmodernguns:item.tec9.cock",
+    "silencedFire": "stabxmodernguns:item.tec9.suppressed"
   },
   "display": {
     "flash": {

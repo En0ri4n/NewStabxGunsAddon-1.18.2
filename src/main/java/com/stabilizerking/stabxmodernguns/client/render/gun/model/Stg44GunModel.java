@@ -19,7 +19,7 @@
    implements IOverrideModel
  {
    public void render(float partialTicks, ItemTransforms.TransformType transformType, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrix, MultiBufferSource renderingbuffer, int light, int overlay) {
-     RenderUtil.renderModel(SpecialModels.STG44.getModel(), stack, matrix, renderingbuffer, light, overlay);
+     RenderUtil.renderModel(SpecialModels.STG_44.getModel(), stack, matrix, renderingbuffer, light, overlay);
  
  
      
@@ -36,7 +36,7 @@
      matrix.translate(0.0D, 0.0D, (cooldown / 5.0F));
      matrix.translate(0.0D, 0.3625D, 0.0D);
      
-     RenderUtil.renderModel(SpecialModels.STG44_CHARGING_HANDLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
+     RenderUtil.renderModel(SpecialModels.STG_44_CHARGING_HANDLE.getModel(), stack, matrix, renderingbuffer, light, overlay);
      
      matrix.popPose();
    }

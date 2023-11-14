@@ -16,10 +16,6 @@
     {
       "tag": "forge:ingots/iron",
       "count": 8
-    },
-    {
-      "count": 1,
-      "item": "minecraft:copper_ingot"
     }
   ],
   "result": {

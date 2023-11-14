@@ -6,8 +6,8 @@
 		"maxAmmo": 30,
 		"reloadAmount": 10,
 		"recoilAngle": 1,
-		"recoilKick": 0.7,
-		"recoilAdsReduction": 0.9,
+		"recoilKick": 0.9,
+		"recoilAdsReduction": 0.5,
 		"alwaysSpread": true,
 		"spread": 1.0
 	},
@@ -40,14 +40,14 @@
 		},
 		"attachments": {
 			"scope": {
-				"yOffset": 10.9,
+				"yOffset": 11.2,
 				"zOffset": 2.8,
-				"scale": 1.5
+				"scale": 1.1
 			},
 			"barrel": {
 				"yOffset": 9.5,
 				"zOffset": -11,
-				"scale": 0.7
+				"scale": 0.5
 			},
 			"underBarrel": {
 				"yOffset": 8.5,

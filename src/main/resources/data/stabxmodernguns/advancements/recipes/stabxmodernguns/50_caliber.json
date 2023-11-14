@@ -6,12 +6,12 @@
     ]
   },
   "criteria": {
-    "has_iron_ingot": {
+    "has_iron_nugget": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:ingots/iron"
+            "tag": "forge:nuggets/iron"
           }
         ]
       }
@@ -21,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:copper_ingot"
-            ]
+            "item": "minecraft:copper_ingot"
           }
         ]
       }
@@ -47,7 +45,7 @@
   },
   "requirements": [
     [
-      "has_iron_ingot",
+      "has_iron_nugget",
       "has_copper_ingot",
       "has_gunpowder",
       "has_the_recipe"

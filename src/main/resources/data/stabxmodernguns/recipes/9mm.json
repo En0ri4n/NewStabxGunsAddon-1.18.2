@@ -2,16 +2,16 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 2,
+      "count": 1,
       "tag": "forge:gunpowder"
     },
     {
-      "count": 5,
+      "count": 4,
       "item": "minecraft:copper_ingot"
     }
   ],
   "result": {
-    "count": 120,
+    "count": 64,
     "item": "stabxmodernguns:9mm"
   }
 }

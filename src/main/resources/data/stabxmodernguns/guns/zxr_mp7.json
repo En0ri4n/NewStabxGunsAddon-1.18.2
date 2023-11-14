@@ -3,13 +3,13 @@
 		"auto": true,
 		"rate": 2,
 		"gripType": "cgm:two_handed",
-		"maxAmmo": 32,
-		"reloadAmount": 16,
-		"recoilAngle": 1.5,
+		"maxAmmo": 30,
+		"reloadAmount": 10,
+		"recoilAngle": 1.0,
 		"recoilKick": 0.6,
-		"recoilAdsReduction": 0.4,
+		"recoilAdsReduction": 0.9,
 		"alwaysSpread": true,
-		"spread": 1
+		"spread": 2
 	},
 	"projectile": {
 		"item": "stabxmodernguns:4.6x30mm",
@@ -41,13 +41,13 @@
 		"attachments": {
 			"scope": {
 				"yOffset": 10,
-				"zOffset": 4,
-				"scale": 1.5
+				"zOffset": 2,
+				"scale": 1
 			},
 			"barrel": {
 				"yOffset": 7.5,
-				"zOffset": -8.5,
-				"scale": 0.6
+				"zOffset": -9.3,
+				"scale": 0.5
 			},
 			"underBarrel": {
 				"yOffset": 6.5,

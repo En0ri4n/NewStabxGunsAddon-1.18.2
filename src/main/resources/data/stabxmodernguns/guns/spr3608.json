@@ -1,12 +1,12 @@
 {
   "general": {
-    "rate": 27,
+    "rate": 25,
     "gripType": "cgm:two_handed",
     "maxAmmo": 5,
     "reloadAmount": 2,
-    "recoilAngle": 20,
-    "recoilKick": 2,
-    "recoilAdsReduction": 0.7,
+    "recoilAngle": 25,
+    "recoilKick": 3.2,
+    "recoilAdsReduction": 0.2,
     "alwaysSpread": false,
     "spread": 0.1
   },
@@ -14,9 +14,9 @@
     "item": "stabxmodernguns:7.62x51mm_nato",
     "visible": false,
     "gravity": true,
-    "damage": 38,
+    "damage": 45,
     "size": 2.0,
-    "speed": 60,
+    "speed": 80,
     "life": 150
   },
   "sounds": {
@@ -39,14 +39,14 @@
     },
     "attachments": {
       "scope": {
-        "yOffset": 4.5,
-        "zOffset": 7,
-        "scale": 1
+        "yOffset": 4.4,
+        "zOffset": 6.8,
+        "scale": 0.8
       },
       "barrel": {
         "yOffset": 3.6,
-        "zOffset": -21.8,
-        "scale": 0.8
+        "zOffset": -21.9,
+        "scale": 0.6
       },
       "underBarrel": {
         "yOffset": 1.9,

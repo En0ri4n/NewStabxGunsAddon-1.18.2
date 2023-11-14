@@ -12,7 +12,7 @@
 		"spread": 2.0
 	},
 	"projectile": {
-		"item": "stabxmodernguns:9x19mm_parabellum",
+		"item": "stabxmodernguns:9mm",
 		"visible": false,
 		"gravity": true,
 		"damage": 4.2,

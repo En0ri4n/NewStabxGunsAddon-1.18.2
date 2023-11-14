@@ -6,10 +6,6 @@
       "tag": "forge:gunpowder"
     },
     {
-      "count": 4,
-      "tag": "forge:ingots/iron"
-    },
-    {
       "count": 2,
       "item": "minecraft:copper_ingot"
     }

@@ -46,18 +46,6 @@
         ]
       }
     },
-    "has_copper_ingot": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:copper_ingot"
-            ]
-          }
-        ]
-      }
-    },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -71,7 +59,6 @@
       "has_gunpowder",
       "has_yellow_dye",
       "has_red_dye",
-      "has_copper_ingot",
       "has_the_recipe"
     ]
   ]

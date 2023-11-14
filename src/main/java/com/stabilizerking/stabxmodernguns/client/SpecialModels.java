@@ -15,12 +15,16 @@ import net.minecraftforge.fml.common.Mod;
 public enum SpecialModels {
     M1_GRANDE("gun/m1_grande"),
     M1_GARAND_CHAGING_HANDLE("gun/m1_grande_charging_handle"),
+    M1_GRANDE_IRONSIGHTS("gun/m1_grande_ironsights"),
+    M1_GRANDE_IRONSIGHTS_MOUNT("gun/m1_grande_ironsights_mount"),
+
+
     M4("gun/m4"),
     M4_IRONSIGHTS("gun/m4_optic_sight_mount"),
     M4_IRONSIGHTS_MOUNT("gun/m4_optic_sight_unmount"),
-    FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON("gun/500magnum_smith_and_wesson"),
-    GLOCK_19_C("gun/glock19c"),
-    GLOCK_19_C_SLIDER("gun/glock19c_slider_cover"),
+    FIVE_HUNDRED_MAGNUM_SMITH_AND_WESSON ("gun/500magnum_smith_and_wesson"),
+    GLOCK_19_C ("gun/glock19c"),
+    GLOCK_19_C_SLIDER ("gun/glock19c_slider_cover"),
     DESERT_EAGLE_MARK_14("gun/desert_eagle_mark14"),
     DESERT_EAGLE_MARK_14_SLIDER("gun/desert_eagle_mark14_slider"),
     MP5_CLASSIC("gun/mp5_classic"),
@@ -30,8 +34,6 @@ public enum SpecialModels {
     MP40("gun/mp40"),
     MP40_CHARGING_HANDLE("gun/mp40_charging_handle"),
     TEC9("gun/tec9"),
-    HK416("gun/hk416"),
-    MK_MOD11("gun/mkmod11"),
     SCAR_17("gun/scar17"),
     SCAR_17_CHARGING_HANDLE("gun/scar17_charging_handle"),
     SCAR_17_IRONSIGHTS("gun/scar17_ironsights"),
@@ -42,28 +44,29 @@ public enum SpecialModels {
     AK_47_IRONSIGHTS_MOUNT("gun/ak47_ironsights_mount"),
     AKM_762("gun/akm_762"),
     AKM_762_CHARGING_HANDLE("gun/akm_762_charging_handle"),
+
+    AK_103("gun/ak_103"),
+    AK_103_CHARGING_HANDLE("gun/ak_103_charging_handle"),
+
     AKS_74_UX("gun/aks74ux"),
     AKS74UX_CHARGING_HANDLE("gun/aks74ux_charging_handle"),
     AKS74UX_IRONSIGHTS("gun/aks74ux_ironsights"),
     AKS74UX_IRONSIGHTS_MOUNT("gun/aks74ux_ironsights_mount"),
 
-    STG44("gun/stg44"),
-    STG44_CHARGING_HANDLE("gun/stg44_charging_handle"),
     M16("gun/m16"),
     M16_IRONSIGHTS("gun/m16_iron_sights"),
     M16_IRONSIGHTS_MOUNT("gun/m16_ironsights_mount"),
+
     M4A1("gun/m4a1"),
     M4A1_IRONSIGHTS("gun/m4a1_ironsights"),
     M4A1_IRONSIGHTS_MOUNT("gun/m4a1_ironsights_mount"),
-    G36C_HD("gun/g36chd"),
+
     ACR_BUSHMASTER("gun/acr_360_bushmaster"),
     ACR_BUSHMASTER_IRONSIGHTS("gun/acr_360_bushmaster_iron_sights"),
     ACR_BUSHMASTER_IRONSIGHTS_MOUNT("gun/acr_360_bushmaster_iron_sights_mount"),
     AA12UX("gun/aa12ux"),
     AA12UX_IRONSIGHTS("gun/aa12ux_ironsights"),
     AA12UX_IRONSIGHTS_MOUNT("gun/aa12ux_ironsights_mount"),
-    SPAS_12("gun/spas12"),
-
     ARISAKA_TYPE_99("gun/arisaka_type99"),
     ARISAKA_TYPE_99_BOLT("gun/arisaka_type99_bolt"),
     ARISAKA_TYPE_99_IRONSIGHTS("gun/arisaka_type99_ironsights"),
@@ -122,7 +125,113 @@ public enum SpecialModels {
 
     ZXR_MP7("gun/zxr_mp7"),
     ZXR_MP7_IRONSIGHTS("gun/zxr_mp7_ironsights"),
-    ZXR_MP7_IRONSIGHTS_MOUNT("gun/zxr_mp7_ironsights_mount");
+    ZXR_MP7_IRONSIGHTS_MOUNT("gun/zxr_mp7_ironsights_mount"),
+
+    AKS74("gun/aks74"),
+    AKS74_CHARGING_HANDLE("gun/aks74_charging_handle"),
+    AKS74_IRONSIGHTS_MOUNT("gun/aks74_ironsights_mount"),
+    AKS74_IRONSIGHTS("gun/aks74_ironsights"),
+
+    BAREETA67("gun/bareeta67"),
+    Bareeta67_SLIDER("gun/bareeta67_slider"),
+
+    HK416("gun/hk416"),
+    HK416_IRONSIGHTS("gun/hk416_ironsights"),
+    HK416_IRONSIGHTS_MOUNT("gun/hk416_ironsights_mount"),
+
+    MODERN_GK57("gun/modern_gk57"),
+    MODERN_GK57_CHARGING_HANDLE("gun/modern_gk57_charging_handle"),
+    MODERN_GK57_IRONSIGHTS("gun/modern_gk57_ironsights"),
+    MODERN_GK57_IRONSIGHTS_MOUNT("gun/modern_gk57_ironsights_mount"),
+
+
+
+
+    BENELLIM4("gun/benelli_m4"),
+    BENELLIM4_CHARGING_HANDLE("gun/benelli_m4_charging_handle"),
+
+    BRUEN_MK9("gun/bruen_mk9"),
+    BRUEN_MK9_CHARGING_HANDLE("gun/bruen_mk9_charging_handle"),
+    BRUEN_MK9_IRONSIGHTS("gun/bruen_mk9_ironsights"),
+    BRUEN_MK9_IRONSIGHTS_MOUNT("gun/bruen_mk9_ironsights_mount"),
+
+
+
+    G36C_HD("gun/g36chd"),
+    G36C_HD_CHARGING_HANDLE("gun/g36chd_charging_handle"),
+
+
+
+    HKUSP45("gun/hkusp45"),
+    HKUSP45_SLIDER("gun/hkusp45_slider"),
+
+    KRISS_VECTOR45("gun/kriss_vector45"),
+    KRISS_VECTOR45_CHARGING_HANDLE("gun/kriss_vector45_charging_handle"),
+    KRISS_VECTOR45_IRONSIGHTS("gun/kriss_vector45_ironsights"),
+    KRISS_VECTOR45_IRONSIGHTS_MOUNT("gun/kriss_vector45_ironsights_mount"),
+
+    M1_GARAND_REMAKE("gun/m1_garand_remake"),
+    M1_GARAND_REMAKE_CHARGING_HANDLE("gun/m1_garand_remake_charging_handle"),
+    M1_GARAND_REMAKE_IRONSIGHTS("gun/m1_garand_remake_ironsights"),
+    M1_GARAND_REMAKE_IRONSIGHTS_MOUNT("gun/m1_garand_remake_ironsights_mount"),
+
+    MK_MOD11("gun/mkmod11"),
+    MK_MOD11_CHARGING_HANDLE("gun/mkmod11_charging_handle"),
+    MK_MOD11_IRONSIGHTS("gun/mkmod11_ironsights"),
+    MK_MOD11_IRONSIGHTS_MOUNT("gun/mkmod11_ironsights_mount"),
+
+    MOSSBERG500("gun/mossberg500"),
+    MOSSBERG500_CHARGING_HANDLE("gun/mossberg500_charging_handle"),
+    MOSSBERG500_IRONSIGHTS("gun/mossberg500_ironsights"),
+    MOSSBERG500_IRONSIGHTS_MOUNT("gun/mossberg500_ironsights_mount"),
+    MOSSBERG500_PUMP_ACTION("gun/mossberg500_pump_action"),
+
+    SUPER_SHORTY("gun/serbu_super_shorty"),
+    SUPER_SHORTY_CHARGING_HANDLE("gun/serbu_super_shorty_charging_handle"),
+    SUPER_SHORTY_IRONSIGHTS("gun/serbu_super_shorty_ironsights"),
+    SUPER_SHORTY_IRONSIGHTS_MOUNT("gun/serbu_super_shorty_ironsights_mount"),
+    SUPER_SHORTY_PUMP_ACTION("gun/serbu_super_shorty_pumpaction"),
+
+    NZ41("gun/nz41"),
+    NZ41_CHARGING_HANDLE("gun/nz41_charging_handle"),
+    NZ41_IRONSIGHTS("gun/nz41_ironsights"),
+    NZ41_IRONSIGHTS_MOUNT("gun/nz41_ironsights_mount"),
+
+    P226("gun/p226"),
+    P226_SLIDER("gun/p226_slider"),
+
+    REMINGTON360("gun/remington360"),
+    REMINGTON360_BOLT("gun/remington360_bolt"),
+
+
+    RPK("gun/rpk"),
+    RPK_CHARGING_HANDLE("gun/rpk_charging_handle"),
+    RPK_IRONSIGHTS("gun/rpk_ironsights"),
+    RPK_IRONSIGHTS_MOUNT("gun/rpk_ironsights_mount"),
+
+    SPAS_12("gun/spas12"),
+    SPAS_12_CHARGING_HANDLE("gun/spas12_charging_handle"),
+    SPAS_12_IRONSIGHTS("gun/spas12_ironsights"),
+    SPAS_12_IRONSIGHTS_MOUNT("gun/spas12_ironsights_mount"),
+
+
+    STG_44("gun/stg44"),
+    STG_44_CHARGING_HANDLE("gun/stg44_charging_handle"),
+    STG_44_IRONSIGHTS("gun/stg44_ironsights"),
+    STG_44_IRONSIGHTS_MOUNT("gun/stg44_ironsights_mount"),
+
+
+    DRAGNAOV_SVD("gun/dragnaov_svd"),
+    DRAGNAOV_SVD_CHARGING_HANDLE("gun/dragnaov_svd_charging_handle"),
+    DRAGNAOV_SVD_IRONSIGHTS("gun/dragnaov_svd_ironsights"),
+    DRAGNAOV_SVD_IRONSIGHTS_MOUNT("gun/dragnaov_svd_ironsights_mount"),
+
+    AZ67("gun/az67"),
+    AZ67_IRONSIGHTS("gun/az67_ironsights"),
+    AZ67_IRONSIGHTS_MOUNT("gun/az67_ironsights_mount");
+
+
+
 
     private final ResourceLocation modelLoc;
     private BakedModel cachedModel;

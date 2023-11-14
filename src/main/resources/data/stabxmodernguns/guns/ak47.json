@@ -39,10 +39,15 @@
 			"zOffset": 2.35
 		},
 		"attachments": {
+			"scope": {
+				"yOffset": 4.9,
+				"zOffset": 4,
+				"scale": 0.7
+			},
 			"barrel": {
-				"yOffset": 2.7,
+				"yOffset": 2.8,
 				"zOffset": -16,
-				"scale": 0.75
+				"scale": 0.5
 			},
 			"underBarrel": {
 				"yOffset": 2.3,

@@ -1,15 +1,15 @@
 {
 	"general": {
 		"auto": true,
-		"rate": 3,
+		"rate": 2,
 		"gripType": "cgm:two_handed",
 		"maxAmmo": 30,
 		"reloadAmount": 10,
-		"recoilAngle": 2.0,
-		"recoilKick": 1.5,
+		"recoilAngle": 1.5,
+		"recoilKick": 1.2,
 		"recoilAdsReduction": 0.7,
 		"alwaysSpread": true,
-		"spread": 2.0
+		"spread": 1.5
 	},
 	"projectile": {
 		"item": "stabxmodernguns:7.32x33mm_kurz",
@@ -23,7 +23,7 @@
 	"sounds": {
 		"fire": "stabxmodernguns:item.stg44.fire",
 		"reload": "cgm:item.pistol.reload",
-		"cock": "cgm:item.assault_rifle.cock",
+		"cock": "stabxmodernguns:item.stg44.cock",
 		"silencedFire": "stabxmodernguns:item.stg44.suppressed"
 	},
 	"display": {
@@ -39,6 +39,11 @@
 			"zOffset": 6.5
 		},
 		"attachments": {
+			"scope": {
+				"yOffset": 4.5,
+				"zOffset": 3.3,
+				"scale": 0.5
+			},
 			"barrel": {
 				"yOffset": 2.5,
 				"zOffset": -12.6,

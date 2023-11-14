@@ -24,7 +24,7 @@
 		"fire": "stabxmodernguns:item.striker45.fire",
 		"reload": "cgm:item.pistol.reload",
 		"cock": "stabxmodernguns:item.striker45.cock",
-		"silencedFire": "cgm:item.machine_pistol.silenced_fire"
+		"silencedFire": "stabxmodernguns:item.striker45.suppressed"
 	},
 	"display": {
 		"flash": {
@@ -35,24 +35,24 @@
 	"modules": {
 		"zoom": {
 			"fovModifier": 0.6,
-			"yOffset": 8.15,
-			"zOffset": 5.4
+			"yOffset": 8.05,
+			"zOffset": 5
 		},
 		"attachments": {
 			"scope": {
 				"yOffset": 7.6,
 				"zOffset": 4,
-				"scale": 1
+				"scale": 0.9
 			},
 			"barrel": {
 				"yOffset": 5.03,
 				"zOffset": -9.2,
-				"scale": 0.75
+				"scale": 0.6
 			},
 			"underBarrel": {
 				"yOffset": 3.5,
 				"zOffset": -3.8,
-				"scale": 0.50
+				"scale": 0.8
 			}
 		}
 	}

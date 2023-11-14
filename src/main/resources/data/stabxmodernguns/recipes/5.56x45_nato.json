@@ -6,10 +6,9 @@
       "tag": "forge:gunpowder"
     },
     {
-      "count": 2,
+      "count": 6,
       "item": "minecraft:copper_ingot"
     }
-
   ],
   "result": {
     "count": 64,

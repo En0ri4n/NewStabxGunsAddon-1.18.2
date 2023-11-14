@@ -23,6 +23,8 @@
       }
     ]
   },
+
+
   "item.m1911a1.fire": {
     "subtitle": "subtitle.stabxmodernguns.regular_fire",
     "sounds": [
@@ -47,11 +49,21 @@
       }
     ]
   },
+
+
   "item.magnum500.fire": {
     "subtitle": "subtitle.stabxmodernguns.regular_fire",
     "sounds": [
       {
         "name": "stabxmodernguns:item/magnum500_fire"
+      }
+    ]
+  },
+  "item.magnum500.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/magnum500_cock"
       }
     ]
   },
@@ -63,6 +75,8 @@
       }
     ]
   },
+
+
   "item.mp5_classic.fire": {
     "subtitle": "subtitle.stabxmodernguns.regular_fire",
     "sounds": [
@@ -87,6 +101,8 @@
       }
     ]
   },
+
+
   "item.zxr_mp7.fire": {
     "subtitle": "subtitle.stabxmodernguns.regular_fire",
     "sounds": [
@@ -143,6 +159,23 @@
       }
     ]
   },
+  "item.hk416.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/hk416_suppressed"
+      }
+    ]
+  },
+  "item.hk416.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/hk416_cock"
+      }
+    ]
+  },
+
   "item.scar17.fire": {
     "subtitle": "subtitle.stabxmodernguns.regular_fire",
     "sounds": [
@@ -269,6 +302,14 @@
     "sounds": [
       {
         "name": "stabxmodernguns:item/spas12_reload"
+      }
+    ]
+  },
+  "item.spas12.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/spas12_suppressed"
       }
     ]
   },
@@ -489,6 +530,8 @@
       }
     ]
   },
+
+
   "item.m1_grande.fire": {
     "subtitle": "subtitle.stabxmodernguns.fire",
     "sounds": [
@@ -513,6 +556,14 @@
       }
     ]
   },
+  "item.m1_grande.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/m1_grande_suppressed"
+      }
+    ]
+  },
 
   "item.acr_bushmaster.fire": {
     "subtitle": "subtitle.stabxmodernguns.fire",
@@ -530,6 +581,16 @@
       }
     ]
   },
+
+  "item.acr_bushmaster.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/acr_bushmaster_suppressed"
+      }
+    ]
+  },
+
   "item.akm762.fire": {
     "subtitle": "subtitle.stabxmodernguns.fire",
     "sounds": [
@@ -818,6 +879,8 @@
     ]
   },
 
+
+
   "item.honeybadger.fire": {
     "subtitle": "subtitle.stabxmodernguns.regular_fire",
     "sounds": [
@@ -834,11 +897,518 @@
       }
     ]
   },
+
   "item.honeybadger.suppressed": {
     "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
     "sounds": [
       {
         "name": "stabxmodernguns:item/honeybadger_suppressed"
+      }
+    ]
+  },
+
+
+  "item.mossberg500.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/mossberg500_fire"
+      }
+    ]
+  },
+  "item.mossberg500.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/mossberg500_cock"
+      }
+    ]
+  },
+
+  "item.mossberg500.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/mossberg500_suppressed"
+      }
+    ]
+  },
+
+  "item.mossberg500.reload": {
+    "subtitle": "subtitle.stabxmodernguns.reload",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/mossberg500_reload"
+      }
+    ]
+  },
+
+
+  "item.shorty.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/shorty_fire"
+      }
+    ]
+  },
+  "item.shorty.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/shorty_cock"
+      }
+    ]
+  },
+
+  "item.shorty.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/shorty_suppressed"
+      }
+    ]
+  },
+  "item.shorty.reload": {
+    "subtitle": "subtitle.stabxmodernguns.reload",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/shorty_reload"
+      }
+    ]
+  },
+
+
+  "item.benelli_m4.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/benelli_m4_fire"
+      }
+    ]
+  },
+  "item.benelli_m4.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/benelli_m4_cock"
+      }
+    ]
+  },
+
+  "item.benelli_m4.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/benelli_m4_suppressed"
+      }
+    ]
+  },
+  "item.benelli_m4.reload": {
+    "subtitle": "subtitle.stabxmodernguns.reload",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/benelli_m4_reload"
+      }
+    ]
+  },
+
+
+
+  "item.p226.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/p226_fire"
+      }
+    ]
+  },
+  "item.p226.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/p226_cock"
+      }
+    ]
+  },
+
+  "item.p226.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/p226_suppressed"
+      }
+    ]
+  },
+
+
+  "item.hkusp45.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/hkusp45_fire"
+      }
+    ]
+  },
+  "item.hkusp45.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/hkusp45_cock"
+      }
+    ]
+  },
+
+  "item.hkusp45.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/hkusp45_suppressed"
+      }
+    ]
+  },
+
+  "item.nz41.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/nz41_fire"
+      }
+    ]
+  },
+  "item.nz41.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/nz41_cock"
+      }
+    ]
+  },
+
+  "item.nz41.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/nz41_suppressed"
+      }
+    ]
+  },
+
+  "item.vector45.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/vector45_fire"
+      }
+    ]
+  },
+  "item.vector45.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/vector45_cock"
+      }
+    ]
+  },
+
+  "item.vector45.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/vector45_suppressed"
+      }
+    ]
+  },
+
+  "item.aks74.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/aks74_fire"
+      }
+    ]
+  },
+  "item.aks74.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/aks74_cock"
+      }
+    ]
+  },
+
+  "item.aks74.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/aks74_suppressed"
+      }
+    ]
+  },
+
+  "item.bareeta67.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/bareeta67_fire"
+      }
+    ]
+  },
+  "item.bareeta67.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/bareeta67_cock"
+      }
+    ]
+  },
+
+  "item.bareeta67.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/bareeta67_suppressed"
+      }
+    ]
+  },
+
+  "item.bruen_mk9.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/bruen_mk9_fire"
+      }
+    ]
+  },
+  "item.bruen_mk9.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/bruen_mk9_cock"
+      }
+    ]
+  },
+
+  "item.bruen_mk9.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/bruen_mk9_suppressed"
+      }
+    ]
+  },
+
+  "item.gk57.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/gk57_fire"
+      }
+    ]
+  },
+  "item.gk57.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/gk57_cock"
+      }
+    ]
+  },
+
+  "item.gk57.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/gk57_suppressed"
+      }
+    ]
+  },
+
+  "item.m1_garand_remake.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/m1_garand_remake_fire"
+      }
+    ]
+  },
+  "item.m1_garand_remake.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/m1_garand_remake_cock"
+      }
+    ]
+  },
+
+  "item.m1_garand_remake.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/m1_garand_remake_suppressed"
+      }
+    ]
+  },
+  "item.m1_garand_remake.ping": {
+    "subtitle": "subtitle.stabxmodernguns.ping",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/m1_garand_remake_ping"
+      }
+    ]
+  },
+
+  "item.ak74s.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ak74s_fire"
+      }
+    ]
+  },
+  "item.ak74s.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ak74s_cock"
+      }
+    ]
+  },
+  "item.ak74s.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ak74s_suppressed"
+      }
+    ]
+  },
+
+  "item.rpk.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/rpk_fire"
+      }
+    ]
+  },
+  "item.rpk.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/rpk_cock"
+      }
+    ]
+  },
+  "item.rpk.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/rpk_suppressed"
+      }
+    ]
+  },
+
+  "item.remington360.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/remington360_fire"
+      }
+    ]
+  },
+  "item.remington360.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/remington360_cock"
+      }
+    ]
+  },
+  "item.remington360.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/remington360_suppressed"
+      }
+    ]
+  },
+
+
+  "item.svd.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/svd_fire"
+      }
+    ]
+  },
+  "item.svd.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/svd_cock"
+      }
+    ]
+  },
+  "item.svd.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/svd_suppressed"
+      }
+    ]
+  },
+
+  "item.ak_103.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ak_103_fire"
+      }
+    ]
+  },
+  "item.ak_103.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ak_103_cock"
+      }
+    ]
+  },
+
+  "item.ak_103.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/ak_103_suppressed"
+      }
+    ]
+  },
+
+
+
+  "item.az67.fire": {
+    "subtitle": "subtitle.stabxmodernguns.regular_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/az67_fire"
+      }
+    ]
+  },
+  "item.az67.cock": {
+    "subtitle": "subtitle.stabxmodernguns.cock",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/az67_cock"
+      }
+    ]
+  },
+
+  "item.az67.suppressed": {
+    "subtitle": "subtitle.stabxmodernguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "stabxmodernguns:item/az67_suppressed"
       }
     ]
   }

@@ -12,7 +12,7 @@
 		"spread": 1
 	},
 	"projectile": {
-		"item": "stabxmodernguns:7.62mm",
+		"item": "stabxmodernguns:5.45x39mm",
 		"visible": false,
 		"gravity": true,
 		"damage": 6,
@@ -24,7 +24,7 @@
 		"fire": "stabxmodernguns:item.aks74ux.fire",
 		"reload": "cgm:item.pistol.reload",
 		"cock": "stabxmodernguns:item.aks74ux.cock",
-		"silencedFire": "stabxmodernguns:item.ak47.suppressed"
+		"silencedFire": "stabxmodernguns:item.aks74ux.suppressed"
 	},
 	"display": {
 		"flash": {
@@ -40,14 +40,14 @@
 		},
 		"attachments": {
 			"scope": {
-				"yOffset": 4.75,
-				"zOffset": 4.5,
-				"scale": 0.9
+				"yOffset": 4.9,
+				"zOffset": 4,
+				"scale": 0.7
 			},
 			"barrel": {
 				"yOffset": 2.7,
 				"zOffset": -12,
-				"scale": 0.75
+				"scale": 0.5
 			},
 			"underBarrel": {
 				"yOffset": 2.3,

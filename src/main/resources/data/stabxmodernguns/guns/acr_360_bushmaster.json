@@ -9,7 +9,7 @@
     "recoilKick": 0.9,
     "recoilAdsReduction": 0.9,
     "alwaysSpread": true,
-    "spread": 2.0
+    "spread": 0.9
   },
   "projectile": {
     "item": "stabxmodernguns:5.56x45_nato",
@@ -24,7 +24,7 @@
     "fire": "stabxmodernguns:item.acr_bushmaster.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "stabxmodernguns:item.acr_bushmaster.cock",
-    "silencedFire": "stabxmodernguns:item.scar17.suppressed"
+    "silencedFire": "stabxmodernguns:item.acr_bushmaster.suppressed"
   },
   "display": {
     "flash": {
@@ -40,9 +40,9 @@
     },
     "attachments": {
       "scope": {
-        "yOffset": 9.4,
-        "zOffset": 0.2,
-        "scale": 1.4
+        "yOffset": 9.5,
+        "zOffset": 4.8,
+        "scale": 0.9
 
       },
       "barrel": {

@@ -24,7 +24,7 @@
 		"fire": "stabxmodernguns:item.akm762.fire",
 		"reload": "cgm:item.pistol.reload",
 		"cock": "stabxmodernguns:item.akm762.cock",
-		"silencedFire": "stabxmodernguns:item.ak47.suppressed"
+		"silencedFire": "stabxmodernguns:item.akm762.suppressed"
 	},
 	"display": {
 		"flash": {
@@ -40,14 +40,14 @@
 		},
 		"attachments": {
 			"scope": {
-				"yOffset": 4.75,
-				"zOffset": 4.6,
-				"scale": 0.9
-				},
+				"yOffset": 4.7,
+				"zOffset": 4,
+				"scale": 0.7
+			},
 			"barrel": {
 				"yOffset": 2.7,
 				"zOffset": -16,
-				"scale": 0.75
+				"scale": 0.5
 			},
 			"underBarrel": {
 				"yOffset": 2.3,

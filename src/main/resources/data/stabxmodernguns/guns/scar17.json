@@ -23,7 +23,7 @@
   "sounds": {
     "fire": "stabxmodernguns:item.scar17.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "cgm:item.assault_rifle.cock",
+    "cock": "stabxmodernguns:item.scar17.cock",
     "silencedFire": "stabxmodernguns:item.scar17.suppressed"
   },
   "display": {
@@ -41,13 +41,13 @@
     "attachments": {
       "scope": {
         "yOffset": 3.8,
-        "zOffset": -2,
-        "scale": 1.2
+        "zOffset": -0.1,
+        "scale": 0.7
       },
       "barrel": {
         "yOffset": 2.2,
         "zOffset": -14,
-        "scale": 0.50
+        "scale": 0.45
       },
       "underBarrel": {
         "yOffset": 1.5,

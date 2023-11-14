@@ -1,14 +1,14 @@
 {
 	"general": {
 		"auto": false,
-		"rate": 6,
+		"rate": 9,
 		"gripType": "cgm:two_handed",
-		"maxAmmo": 9,
+		"maxAmmo": 7,
 		"reloadAmount": 1,
-		"recoilAngle": 5.0,
-		"recoilKick": 1.5,
+		"recoilAngle": 13,
+		"recoilKick": 5,
 		"recoilAdsReduction": 0.5,
-		"projectileAmount": 14,
+		"projectileAmount": 25,
 		"alwaysSpread": true,
 		"spread": 20.0
 	},
@@ -19,12 +19,13 @@
 		"damage": 32.5,
 		"size": 0.2,
 		"speed": 15.0,
-		"life": 20
+		"life": 45
 	},
 	"sounds": {
 		"fire": "stabxmodernguns:item.spas12.fire",
 		"reload": "stabxmodernguns:item.spas12.reload",
-		"cock": "stabxmodernguns:item.spas12.cock"
+		"cock": "stabxmodernguns:item.spas12.cock",
+		"silencedFire": "stabxmodernguns:item.spas12.suppressed"
 	},
 	"display": {
 		"flash": {
@@ -37,6 +38,23 @@
 			"fovModifier": 0.8,
 			"yOffset": 4,
 			"zOffset": 2.5
+		},
+		"attachments": {
+			"scope": {
+				"yOffset": 3.7,
+				"zOffset": -3.3,
+				"scale": 0.6
+			},
+			"barrel": {
+				"yOffset": 2.7,
+				"zOffset": -19.3,
+				"scale": 0.5
+			},
+			"underBarrel": {
+				"yOffset": 0.7,
+				"zOffset": -7,
+				"scale": 0.6
+			}
 		}
 	}
 }

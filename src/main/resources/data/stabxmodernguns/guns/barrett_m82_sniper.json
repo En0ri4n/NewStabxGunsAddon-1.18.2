@@ -4,8 +4,8 @@
     "gripType": "cgm:two_handed",
     "maxAmmo": 10,
     "reloadAmount": 2,
-    "recoilAngle": 20,
-    "recoilKick": 1.5,
+    "recoilAngle": 25,
+    "recoilKick": 4.5,
     "recoilAdsReduction": 0.8,
     "alwaysSpread": false,
     "spread": 0.1
@@ -16,8 +16,8 @@
     "gravity": true,
     "damage": 70,
     "size": 2.0,
-    "speed": 70,
-    "life": 110
+    "speed": 120,
+    "life": 130
   },
   "sounds": {
     "fire": "stabxmodernguns:item.m82.fire",
@@ -33,13 +33,14 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.6,
-      "yOffset": 6.5,
+      "yOffset": 7.7,
       "zOffset": 6
     },
     "attachments": {
       "scope": {
-        "yOffset": 5.9,
-        "zOffset": 4.5
+        "yOffset": 5.95,
+        "zOffset": 4.5,
+	 "scale" : 0.8
       },
       "underBarrel": {
         "yOffset": 4,

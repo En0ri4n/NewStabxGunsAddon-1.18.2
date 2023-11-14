@@ -23,7 +23,8 @@
     "fire": "stabxmodernguns:item.m1_grande.fire",
     "cock": "stabxmodernguns:item.m1_grande.cock",
     "ping": "stabxmodernguns:item.m1_grande.ping",
-    "reload": "cgm:item.pistol.reload"
+    "reload": "cgm:item.pistol.reload",
+    "silencedFire": "stabxmodernguns:item.m1_grande.suppressed"
   },
   "display": {
     "flash": {
@@ -34,8 +35,20 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.6,
-      "yOffset": 6,
-      "zOffset": 1.5
+      "yOffset": 6.1,
+      "zOffset": 1
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 6.7,
+        "zOffset": 2,
+        "scale": 0.6
+      },
+      "barrel": {
+        "yOffset": 4.6,
+        "zOffset": -17,
+        "scale": 0.5
+      }
     }
   }
 }

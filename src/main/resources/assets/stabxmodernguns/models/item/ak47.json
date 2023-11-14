@@ -1,6 +1,5 @@
 {
 	"parent": "builtin/entity",
-
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [0, 5.75, -4.25],

@@ -16,7 +16,7 @@
         ]
       }
     },
-    "has_gunpowder": {
+    "has_black_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

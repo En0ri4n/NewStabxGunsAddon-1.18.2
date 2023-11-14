@@ -5,9 +5,9 @@
 		"gripType": "cgm:two_handed",
 		"maxAmmo": 30,
 		"reloadAmount": 10,
-		"recoilAngle": 3.0,
-		"recoilKick": 0.5,
-		"recoilAdsReduction": 0.9,
+		"recoilAngle": 1.1,
+		"recoilKick": 1,
+		"recoilAdsReduction": 0.8,
 		"alwaysSpread": true,
 		"spread": 3.0
 	},
@@ -24,7 +24,7 @@
 		"fire": "stabxmodernguns:item.m4.fire",
 		"reload": "cgm:item.pistol.reload",
 		"cock": "stabxmodernguns:item.m4.cock",
-		"silencedFire": "stabxmodernguns:item.g36chd.suppressed"
+		"silencedFire": "stabxmodernguns:item.m4.suppressed"
 	},
 	"display": {
 		"flash": {
@@ -41,8 +41,8 @@
 		"attachments": {
 			"scope": {
 				"yOffset": 5.8,
-				"zOffset": -3,
-				"scale": 0.75
+				"zOffset": -1,
+				"scale": 0.6
 			},
 			"barrel": {
 				"yOffset": 5.2,

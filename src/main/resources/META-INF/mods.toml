@@ -1,13 +1,18 @@
 modLoader="javafml"
 loaderVersion="[40,)"
 license="GNU General Public License v3.0"
+issueTrackerURL="https://github.com/Stabilizer360/Stabx_Modern_Guns_1.19.4/issues"
 
 [[mods]]
     modId="stabxmodernguns"
-    version="5.4.1-modified"
+    version="7.0"
     displayName="Stabx Modern Guns"
-    authors="Stabilizer King Dynasty (modified by En0ri4n)"
-    description="Addon for MrcrayFish Gun mod That Adds High Quality Guns with good sounds."
+    authors="Stabilizer King"
+    credits="Stabilizer Gaming Studio amd the Stabx Community "
+    description="Addon for MrcrayFish Gun mod Adding High Quality Guns with better sounds"
+    updateJSONURL="https://raw.githubusercontent.com/Stabilizer360/Stabx_Modern_Guns_1.18.2/master/update.json"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/stabx-modern-guns"
+
 
 [[dependencies.stabxmodernguns]]
     modId="forge"
@@ -33,6 +38,5 @@ license="GNU General Public License v3.0"
     versionRange="[0.4.2,)"
     ordering="NONE"
     side="BOTH"
-
 [modproperties.stabxmodernguns]
     catalogueItemIcon="stabxmodernguns:m4"

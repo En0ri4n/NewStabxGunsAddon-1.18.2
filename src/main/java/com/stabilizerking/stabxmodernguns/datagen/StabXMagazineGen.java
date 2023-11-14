@@ -26,12 +26,12 @@ public class StabXMagazineGen extends MagazineProvider
                 .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
                 .build());
 
-        addMagazine(getId(ModItemRegisteration.NINE_X_19MM_PARABELLUM_MAGAZINE), Magazine.Builder.create()
-                .setMaxAmmo(15)
-                .setReloadAmount(15)
-                .setStoredAmmo(ModItemRegisteration.NINE_X_19MM_PARABELLUM.get())
-                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
-                .build());
+//        addMagazine(getId(ModItemRegisteration.NINE_X_19MM_PARABELLUM_MAGAZINE), Magazine.Builder.create()
+//                .setMaxAmmo(15)
+//                .setReloadAmount(15)
+//                .setStoredAmmo(ModItemRegisteration.NINE_X_19MM_PARABELLUM.get())
+//                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
+//                .build());
 
         addMagazine(getId(ModItemRegisteration.SEVEN_62_MM_MAGAZINE), Magazine.Builder.create()
                 .setMaxAmmo(30)
@@ -61,12 +61,12 @@ public class StabXMagazineGen extends MagazineProvider
                 .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
                 .build());
 
-        addMagazine(getId(ModItemRegisteration.SEVEN_THIRTYTWO_MM_KURZ_MAGAZINE), Magazine.Builder.create()
-                .setMaxAmmo(30)
-                .setReloadAmount(30)
-                .setStoredAmmo(ModItemRegisteration.SEVEN_THIRTYTWO_MM_KURZ.get())
-                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
-                .build());
+//        addMagazine(getId(ModItemRegisteration.SEVEN_THIRTYTWO_MM_KURZ_MAGAZINE), Magazine.Builder.create()
+//                .setMaxAmmo(30)
+//                .setReloadAmount(30)
+//                .setStoredAmmo(ModItemRegisteration.SEVEN_THIRTYTWO_MM_KURZ.get())
+//                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
+//                .build());
 
         addMagazine(getId(ModItemRegisteration.FIFTY_CALIBER_MAGAZINE), Magazine.Builder.create()
                 .setMaxAmmo(10)
@@ -96,12 +96,12 @@ public class StabXMagazineGen extends MagazineProvider
                 .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
                 .build());
 
-        addMagazine(getId(ModItemRegisteration.SEVEN_SIXTYTWO_X_FIFTYONE_MM_NATO_MAGAZINE), Magazine.Builder.create()
-                .setMaxAmmo(10)
-                .setReloadAmount(10)
-                .setStoredAmmo(ModItemRegisteration.SEVEN_SIXTYTWO_X_FIFTYONE_MM_NATO.get())
-                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
-                .build());
+//        addMagazine(getId(ModItemRegisteration.SEVEN_SIXTYTWO_X_FIFTYONE_MM_NATO_MAGAZINE), Magazine.Builder.create()
+//                .setMaxAmmo(10)
+//                .setReloadAmount(10)
+//                .setStoredAmmo(ModItemRegisteration.SEVEN_SIXTYTWO_X_FIFTYONE_MM_NATO.get())
+//                .setReloadSound(ModSounds.ITEM_PISTOL_RELOAD.get())
+//                .build());
 
         addMagazine(getId(ModItemRegisteration.FIFTY_BMG_MAGAZINE), Magazine.Builder.create()
                 .setMaxAmmo(10)

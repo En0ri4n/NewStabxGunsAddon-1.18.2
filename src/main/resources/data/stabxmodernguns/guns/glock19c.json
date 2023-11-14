@@ -1,13 +1,13 @@
 {
   "general": {
-    "auto": true,
-    "rate": 2,
+    "auto": false,
+    "rate": 4,
     "gripType": "cgm:one_handed",
     "maxAmmo": 19,
     "reloadAmount": 5,
-    "recoilAngle": 1,
-    "recoilKick": 0.5,
-    "recoilAdsReduction": 0.9,
+    "recoilAngle": 6,
+    "recoilKick": 2.5,
+    "recoilAdsReduction": 0.3,
     "alwaysSpread": true,
     "spread": 2.0
   },
@@ -22,26 +22,26 @@
   "sounds": {
     "fire": "stabxmodernguns:item.glock19c.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "cgm:item.pistol.cock",
+    "cock": "stabxmodernguns:item.glock19c.cock",
     "silencedFire": "stabxmodernguns:item.glock19c.suppressed"
   },
   "display": {
     "flash": {
-      "yOffset": 2.2,
-      "zOffset": 1.2
+      "yOffset": 2.5,
+      "zOffset": 0.9
     }
   },
   "modules": {
     "zoom": {
-      "fovModifier": 0.6,
-      "yOffset": 3.35,
-      "zOffset": -3.5
+      "fovModifier": 0.9,
+      "yOffset": 3.7,
+      "zOffset": -4
     },
     "attachments": {
       "barrel": {
-        "yOffset": 2,
-        "zOffset": 2.7,
-        "scale": 0.70
+        "yOffset": 2.9,
+        "zOffset": 1.8,
+        "scale": 0.5
       }
     }
   }
