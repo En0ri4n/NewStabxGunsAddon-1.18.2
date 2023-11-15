@@ -110,5 +110,24 @@
   "itemGroup.stabx_lmgs": "Light Machine Guns",
   "itemGroup.stabx_misc": "Miscellaneous/Attachments",
   "itemGroup.stabx_ammunation": "Ammunition",
-  "itemGroup.stabx_dmrs": "Marksman Rifles/DMRs"
+  "itemGroup.stabx_dmrs": "Marksman Rifles/DMRs",
+
+
+  "item.stabxmodernguns.9mm_magazine": "9mm Magazine",
+  "item.stabxmodernguns.9x19mm_parabellum_magazine": "9x19mm Parabellum Magazine",
+  "item.stabxmodernguns.7.62mm_magazine": "7.62x39mm Magazine",
+  "item.stabxmodernguns.7.62x51mm_nato_magazine": "7.62x51mm NATO Magazine",
+  "item.stabxmodernguns.5.56x45_nato_magazine": "5.56x45 NATO Magazine",
+  "item.stabxmodernguns.7.7x58mm_magazine": "7.7x58mm Magazine",
+  "item.stabxmodernguns.7.32x33mm_kurz_magazine": "7.32x33mm Kurz Magazine",
+  "item.stabxmodernguns.12gauge_buckshot_slug_shell_360_magazine": "12 Gauge BuckShot Slug Magazine",
+  "item.stabxmodernguns.50_caliber_magazine": "500 S&W Magazine",
+  "item.stabxmodernguns.300wm_magazine": ".300WM Magazine",
+  "item.stabxmodernguns.50ae_magazine": "50 AE Magazine",
+  "item.stabxmodernguns.45acp_magazine": ".45 ACP Magazine",
+  "item.stabxmodernguns.50bmg_magazine": ".50 BMG Magazine",
+  "item.stabxmodernguns.30_60_springfield_cartridge_magazine": "30-60 SpringField Magazine",
+  "item.stabxmodernguns.300_blackout_magazine": ".300 Blackout",
+  "item.stabxmodernguns.4.6x30mm_magazine": "4.6x30mm",
+  "item.stabxmodernguns.7.92x57mm_magazine": "7.92x57mm Mauser"
 }
