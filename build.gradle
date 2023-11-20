@@ -13,6 +13,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
+apply plugin: 'idea'
 
 version = "${mod_version}"
 group = "com.stabilizerking.stabxmodernguns"
@@ -21,6 +22,15 @@ archivesBaseName = "Stabx_Modern_Guns"
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+
+idea { module { inheritOutputDirs = true } }
+
+sourceSets {
+    main {
+        output.resourcesDir = output.classesDirs[0]
+    }
+}
 
 minecraft {
     mappings channel: "${mappings_channel}", version: "${parchment_version}"
