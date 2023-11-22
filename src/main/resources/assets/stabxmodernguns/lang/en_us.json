@@ -75,7 +75,7 @@
   "item.stabxmodernguns.skeleton_grip": "Skeleton Grip",
 
   "item.stabxmodernguns.9mm": "9mm",
-  "item.stabxmodernguns.9x19mm": "9x19mm Parabellum",
+  "item.stabxmodernguns.9x19mm_parabellum": "9x19mm Parabellum",
   "item.stabxmodernguns.7.62mm": "7.62x39mm",
   "item.stabxmodernguns.7.62x51mm_nato": "7.62x51mm NATO",
   "item.stabxmodernguns.5.56x45_nato": "5.56x45 NATO",
@@ -96,6 +96,7 @@
   "item.stabxmodernguns.303_british": ".303 British",
 
   "subtitle.stabxmodernguns.regular_fire": "Gunfire",
+  "subtitle.stabxmodernguns.fire": "Gunfire",
   "subtitle.stabxmodernguns.suppressed_fire": "Silenced gunfire",
   "subtitle.stabxmodernguns.enchanted_fire": "Enchanted gunfire",
 
